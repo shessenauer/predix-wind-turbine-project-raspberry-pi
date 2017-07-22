@@ -1,0 +1,22 @@
+{
+  "name": "predix-demos-edge-sensors",
+  "version": "1.0.0",
+  "description": "Edge app to run on a pi to pull data from sensors and send to cloud.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "edge",
+    "predix",
+    "machine",
+    "cloud",
+    "sensors"
+  ],
+  "author": "Laura Poss",
+  "license": "ISC",
+  "dependencies": {
+    "node-grovepi": "^2.1.1",
+    "ws": "^3.0.0"
+  }
+}
